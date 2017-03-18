@@ -3,7 +3,7 @@ version: '2'
 
 services:
   ace_database:
-    image: maxc0c0s/ace_database:latest
+    image: maxc0c0s/ace-db-image:latest
     ports:
       - 3306:3306
     environment:
