@@ -3,11 +3,9 @@ version: '2'
 
 services:
   ace_database:
-    image: ace_database:latest
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: maxc0c0s/ace_database:latest
     ports:
       - 3306:3306
     environment:
       - MYSQL_ALLOW_EMPTY_PASSWORD=true
+
